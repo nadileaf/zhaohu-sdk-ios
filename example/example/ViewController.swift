@@ -9,15 +9,16 @@
 import UIKit
 
 import zhaohu_sdk_ios
+import MaterialComponents.MaterialButtons
 
 class ViewController: UIViewController {
 
-    let button = ZhaohuFloatingButton()
+    @IBOutlet weak var zhaohufb: MDCFloatingButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
-
 
 }
 
