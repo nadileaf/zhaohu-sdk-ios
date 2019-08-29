@@ -7,7 +7,6 @@ workspace 'zhaohu-sdk-ios'
 target 'zhaohu-sdk-ios' do
   project 'zhaohu-sdk-ios.xcodeproj'
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
   pod 'MaterialComponents/Buttons'
   # Pods for zhaohu-sdk-ios
 
@@ -16,13 +15,15 @@ target 'zhaohu-sdk-ios' do
     # Pods for testing
   end
 
+  use_frameworks!
 end
 
 
 target 'example' do
   project 'example/example.xcodeproj'
-  use_frameworks!
   pod 'zhaohu-sdk-ios', :path => './'
+
+  use_frameworks!
 end
 
 
