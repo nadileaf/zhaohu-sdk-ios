@@ -56,7 +56,7 @@ SPEC CHECKSUMS:
   MaterialComponents: e98245f7a1a9802fe442fa4d1f3acbb727ece9ec
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
-  zhaohu-sdk-ios: 4c76053f6c26a21c98122e538739482ea25017a6
+  zhaohu-sdk-ios: be5c4cdeb55589cb395e1337f14eafca0417f1cd
 
 PODFILE CHECKSUM: 6dd659470cb024cbdd5498ca783f3a72c90f868e
 

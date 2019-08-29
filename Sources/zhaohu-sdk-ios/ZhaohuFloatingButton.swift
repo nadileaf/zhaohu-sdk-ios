@@ -19,7 +19,7 @@ import MaterialComponents.MaterialButtons
     }
 
 
-    let plusImage = #imageLiteral(resourceName: "mesoor-round-logo.png")
+    let plusImage = UIImage(named: "mesoor-round-logo.png")
 
     private func setup() {
         self.sizeToFit()
