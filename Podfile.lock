@@ -1,6 +1,6 @@
 PODS:
-  - MaterialComponents/AnimationTiming (88.1.0)
-  - MaterialComponents/Buttons (88.1.0):
+  - MaterialComponents/AnimationTiming (92.0.0)
+  - MaterialComponents/Buttons (92.0.0):
     - MaterialComponents/Elevation
     - MaterialComponents/Ink
     - MaterialComponents/private/Math
@@ -11,27 +11,27 @@ PODS:
     - MaterialComponents/Typography
     - MDFInternationalization
     - MDFTextAccessibility
-  - MaterialComponents/Elevation (88.1.0):
+  - MaterialComponents/Elevation (92.0.0):
     - MaterialComponents/private/Color
     - MaterialComponents/private/Math
-  - MaterialComponents/Ink (88.1.0):
+  - MaterialComponents/Ink (92.0.0):
     - MaterialComponents/private/Color
     - MaterialComponents/private/Math
-  - MaterialComponents/private/Application (88.1.0)
-  - MaterialComponents/private/Color (88.1.0)
-  - MaterialComponents/private/Math (88.1.0)
-  - MaterialComponents/Ripple (88.1.0):
+  - MaterialComponents/private/Application (92.0.0)
+  - MaterialComponents/private/Color (92.0.0)
+  - MaterialComponents/private/Math (92.0.0)
+  - MaterialComponents/Ripple (92.0.0):
     - MaterialComponents/AnimationTiming
     - MaterialComponents/private/Color
     - MaterialComponents/private/Math
-  - MaterialComponents/ShadowElevations (88.1.0)
-  - MaterialComponents/ShadowLayer (88.1.0):
+  - MaterialComponents/ShadowElevations (92.0.0)
+  - MaterialComponents/ShadowLayer (92.0.0):
     - MaterialComponents/ShadowElevations
-  - MaterialComponents/Shapes (88.1.0):
+  - MaterialComponents/Shapes (92.0.0):
     - MaterialComponents/private/Color
     - MaterialComponents/private/Math
     - MaterialComponents/ShadowLayer
-  - MaterialComponents/Typography (88.1.0):
+  - MaterialComponents/Typography (92.0.0):
     - MaterialComponents/private/Application
     - MaterialComponents/private/Math
   - MDFInternationalization (2.0.0)
@@ -53,11 +53,11 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  MaterialComponents: 54dfcfccc45439a158f9d3ad8bc0e39972f91db4
+  MaterialComponents: 0fccf7f7e232145c164dc60da6fdefd011e9bf28
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
-  zhaohu-sdk-ios: be5c4cdeb55589cb395e1337f14eafca0417f1cd
+  zhaohu-sdk-ios: 5c368633d33f7bf038d1c6ea65a83e40bdc6c4d0
 
-PODFILE CHECKSUM: d61a407cc0ee9cb17b46c4304add4da7993b93da
+PODFILE CHECKSUM: ac1f892cdb5a3171a0332ea0d5537d1a48763745
 
 COCOAPODS: 1.8.0.beta.2

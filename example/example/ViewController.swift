@@ -7,18 +7,31 @@
 //
 
 import UIKit
+import os.log
 
 import zhaohu_sdk_ios
 import MaterialComponents.MaterialButtons
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var zhaohufb: MDCFloatingButton!
+    @IBOutlet weak var zhaohufb: ZhaohuFloatingButton!
+    private let log = OSLog(subsystem: Bundle.main.bundleIdentifier!, category: "Screen")
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        os_log("demo start!", log: log, type: .info)
+        zhaohufb.parentViewController = self
+        
+        if self.navigationController == nil {
+            os_log("???", log: log, type: .debug)
+        }
+    }
 }
 
+enum MyError: Error {
+    case nani
+}
