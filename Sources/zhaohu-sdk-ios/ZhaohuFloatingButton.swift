@@ -10,9 +10,10 @@ import MaterialComponents.MaterialButtons
 import os.log
 
 @IBDesignable open class ZhaohuFloatingButton: MDCFloatingButton {
+
     fileprivate var canDrag = false
     fileprivate let log = OSLog(subsystem: Bundle.main.bundleIdentifier!, category: "component")
-    
+    fileprivate var p: ZhaohuParameter? = nil
     public weak var parentViewController: UIViewController?
     
     override init(frame: CGRect, shape: MDCFloatingButtonShape) {
@@ -37,22 +38,37 @@ import os.log
         self.accessibilityLabel = "Create"
     }
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    public func initialize(p: ZhaohuParameter) {
+        self.p = p
     }
-    */
-    
     
     override open func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        let alert = UIAlertController(title: "???", message: "!!!", preferredStyle: UIAlertController.Style.alert)
-//        self.container?.present(alert, animated: true, completion: nil)
-//
-        let webViewController = WebViewController()
-//        self.parentViewController?.navigationController?.pushViewController(webViewController, animated: true)
-        self.parentViewController?.present(webViewController, animated: true)
+        guard let p = self.p else {
+            fatalError("zhaohu need initialize")
+        }
+        let webViewController = WebViewController(p: p)
+        if let nc = self.parentViewController?.navigationController {
+            nc.pushViewController(webViewController, animated: true)
+        } else {
+            self.parentViewController?.present(webViewController, animated: true)
+        }
         super.touchesBegan(touches, with: event)
+    }
+}
+
+public struct ZhaohuParameter {
+    public let from: String
+    public let token: String
+    public let requestUserInfoDelegate: RequestUserInfoDelegate
+    
+    public let env: String?
+    public let version: String?
+    
+    public init (from: String, token: String, requestUserInfoDelegate: RequestUserInfoDelegate, env: String? = nil, version: String? = nil) {
+        self.from = from
+        self.token = token
+        self.requestUserInfoDelegate = requestUserInfoDelegate
+        self.env = env
+        self.version = version
     }
 }
