@@ -41,24 +41,21 @@ PODS:
 
 DEPENDENCIES:
   - MaterialComponents/Buttons
-  - zhaohu-sdk-ios (from `./`)
+  - zhaohu-sdk-ios (~> 0.0.3)
 
 SPEC REPOS:
   trunk:
     - MaterialComponents
     - MDFInternationalization
     - MDFTextAccessibility
-
-EXTERNAL SOURCES:
-  zhaohu-sdk-ios:
-    :path: "./"
+    - zhaohu-sdk-ios
 
 SPEC CHECKSUMS:
   MaterialComponents: 0fccf7f7e232145c164dc60da6fdefd011e9bf28
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
-  zhaohu-sdk-ios: 3d8b9d3dbfa13f80260fdff6ffdd1f48906ffa05
+  zhaohu-sdk-ios: dd07f671f2ffa64dd615940b8c87bb5fa528674b
 
-PODFILE CHECKSUM: ac1f892cdb5a3171a0332ea0d5537d1a48763745
+PODFILE CHECKSUM: 540b490a913e4fa6c8cbc68d602c84e8656e4028
 
 COCOAPODS: 1.8.0

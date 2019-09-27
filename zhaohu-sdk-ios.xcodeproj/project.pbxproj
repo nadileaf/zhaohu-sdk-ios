@@ -21,8 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2EB868A193E961AB1C083B06 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB866A96DFB1768122B7D1B /* Log.swift */; };
 		2EB86BC3FAF7CF0BF67F537D /* ZhaohuFloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8662CC1D199FDADD27AD7 /* ZhaohuFloatingButton.swift */; };
+		3B34AA3D233E426400217FF6 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34AA3C233E426400217FF6 /* Log.swift */; };
 		3B73ED902317893A00258373 /* MaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B73ED8F2317893A00258373 /* MaterialComponents.framework */; };
 		3B73ED922317893F00258373 /* MDFInternationalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B73ED912317893F00258373 /* MDFInternationalization.framework */; };
 		3B73EDAD231F721100258373 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B73EDAB231F721100258373 /* WebViewController.swift */; };
@@ -40,14 +40,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = zhaohu-sdk-ios::zhaohu-sdk-ios;
+			remoteGlobalIDString = "zhaohu-sdk-ios::zhaohu-sdk-ios";
 			remoteInfo = "zhaohu-sdk-ios";
 		};
 		3B122D0A2313C41800919F4A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = zhaohu-sdk-ios::zhaohu-sdk-iosTests;
+			remoteGlobalIDString = "zhaohu-sdk-ios::zhaohu-sdk-iosTests";
 			remoteInfo = "zhaohu-sdk-iosTests";
 		};
 /* End PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		03CAF0F4E04E4A4EAD1767E6 /* Pods_zhaohu_sdk_iosPackageDescription.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhaohu_sdk_iosPackageDescription.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CAACBBBA923974228193178 /* Pods-zhaohu-sdk-iosPackageDescription.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhaohu-sdk-iosPackageDescription.release.xcconfig"; path = "Target Support Files/Pods-zhaohu-sdk-iosPackageDescription/Pods-zhaohu-sdk-iosPackageDescription.release.xcconfig"; sourceTree = "<group>"; };
 		2EB8662CC1D199FDADD27AD7 /* ZhaohuFloatingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZhaohuFloatingButton.swift; sourceTree = "<group>"; };
-		2EB866A96DFB1768122B7D1B /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		3B34AA3C233E426400217FF6 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		3B73ED6B2316874C00258373 /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B73ED6F23177AF900258373 /* MaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B73ED7223177C3E00258373 /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,10 +201,10 @@
 		OBJ_8 /* zhaohu-sdk-ios */ = {
 			isa = PBXGroup;
 			children = (
+				3B34AA3C233E426400217FF6 /* Log.swift */,
 				3B73EDAB231F721100258373 /* WebViewController.swift */,
 				3B73EDAC231F721100258373 /* WebViewController.xib */,
 				2EB8662CC1D199FDADD27AD7 /* ZhaohuFloatingButton.swift */,
-				2EB866A96DFB1768122B7D1B /* Log.swift */,
 			);
 			name = "zhaohu-sdk-ios";
 			path = "Sources/zhaohu-sdk-ios";
@@ -376,7 +376,7 @@
 			files = (
 				2EB86BC3FAF7CF0BF67F537D /* ZhaohuFloatingButton.swift in Sources */,
 				3B73EDAD231F721100258373 /* WebViewController.swift in Sources */,
-				2EB868A193E961AB1C083B06 /* Log.swift in Sources */,
+				3B34AA3D233E426400217FF6 /* Log.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

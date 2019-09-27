@@ -25,8 +25,7 @@ import MaterialComponents.MaterialButtons
         self.setup()
     }
 
-
-    let plusImage = UIImage(named: "mesoor-round-logo.png")
+    let plusImage = UIImage(named: "mesoor-round-logo.png", in: Bundle(for: ZhaohuFloatingButton.self), compatibleWith: nil)
 
     public func setup() {
         logger.info("setup")

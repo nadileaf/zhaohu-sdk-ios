@@ -40,7 +40,7 @@ public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDele
     
     public init(p: ZhaohuParameter) {
         self.p = p
-        super.init(nibName: "WebViewController", bundle: Bundle.main)
+        super.init(nibName: "WebViewController", bundle: Bundle(for: WebViewController.self))
     }
     
     required public init?(coder: NSCoder) {
