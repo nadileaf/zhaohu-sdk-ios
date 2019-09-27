@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"zhaohu-sdk-ios::zhaohu-sdk-iosPackageTests::ProductTarget" /* zhaohu-sdk-iosPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_31 /* Build configuration list for PBXAggregateTarget "zhaohu-sdk-iosPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_34 /* PBXTargetDependency */,
+			);
+			name = "zhaohu-sdk-iosPackageTests";
+			productName = "zhaohu-sdk-iosPackageTests";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2EB868A193E961AB1C083B06 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB866A96DFB1768122B7D1B /* Log.swift */; };
+		2EB86BC3FAF7CF0BF67F537D /* ZhaohuFloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8662CC1D199FDADD27AD7 /* ZhaohuFloatingButton.swift */; };
+		3B73ED902317893A00258373 /* MaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B73ED8F2317893A00258373 /* MaterialComponents.framework */; };
+		3B73ED922317893F00258373 /* MDFInternationalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B73ED912317893F00258373 /* MDFInternationalization.framework */; };
+		3B73EDAD231F721100258373 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B73EDAB231F721100258373 /* WebViewController.swift */; };
+		4BFA319C923ACECBE758711E /* Pods_zhaohu_sdk_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5081A2CAE51B691B8409610F /* Pods_zhaohu_sdk_ios.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		5B8EB13AFCDBC80400A574B3 /* Pods_zhaohu_sdk_iosPackageDescription.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CAF0F4E04E4A4EAD1767E6 /* Pods_zhaohu_sdk_iosPackageDescription.framework */; };
+		5BC1DF12D23BE92A80106A84 /* Pods_zhaohu_sdk_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492BBE37868E6757E382D426 /* Pods_zhaohu_sdk_iosTests.framework */; };
+		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_40 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* XCTestManifests.swift */; };
+		OBJ_41 /* zhaohu_sdk_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* zhaohu_sdk_iosTests.swift */; };
+		OBJ_43 /* zhaohu_sdk_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "zhaohu-sdk-ios::zhaohu-sdk-ios::Product" /* zhaohu_sdk_ios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B122D092313C41700919F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = zhaohu-sdk-ios::zhaohu-sdk-ios;
+			remoteInfo = "zhaohu-sdk-ios";
+		};
+		3B122D0A2313C41800919F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = zhaohu-sdk-ios::zhaohu-sdk-iosTests;
+			remoteInfo = "zhaohu-sdk-iosTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03CAF0F4E04E4A4EAD1767E6 /* Pods_zhaohu_sdk_iosPackageDescription.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhaohu_sdk_iosPackageDescription.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAACBBBA923974228193178 /* Pods-zhaohu-sdk-iosPackageDescription.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhaohu-sdk-iosPackageDescription.release.xcconfig"; path = "Target Support Files/Pods-zhaohu-sdk-iosPackageDescription/Pods-zhaohu-sdk-iosPackageDescription.release.xcconfig"; sourceTree = "<group>"; };
+		2EB8662CC1D199FDADD27AD7 /* ZhaohuFloatingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZhaohuFloatingButton.swift; sourceTree = "<group>"; };
+		2EB866A96DFB1768122B7D1B /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		3B73ED6B2316874C00258373 /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B73ED6F23177AF900258373 /* MaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B73ED7223177C3E00258373 /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B73ED7823177D8B00258373 /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B73ED7B23177DF100258373 /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B73ED8F2317893A00258373 /* MaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B73ED912317893F00258373 /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B73EDA32317C7C900258373 /* mesoor-round-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mesoor-round-logo.png"; sourceTree = "<group>"; };
+		3B73EDAB231F721100258373 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		3B73EDAC231F721100258373 /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		492BBE37868E6757E382D426 /* Pods_zhaohu_sdk_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhaohu_sdk_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5081A2CAE51B691B8409610F /* Pods_zhaohu_sdk_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhaohu_sdk_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF5C74902747C4EC41C2F25 /* Pods-zhaohu-sdk-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhaohu-sdk-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-zhaohu-sdk-iosTests/Pods-zhaohu-sdk-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69AAAF27931A5E3F7A29A320 /* Pods-zhaohu-sdk-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhaohu-sdk-ios.debug.xcconfig"; path = "Target Support Files/Pods-zhaohu-sdk-ios/Pods-zhaohu-sdk-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		AAD7CDF10E7F0BA8317D777C /* Pods-zhaohu-sdk-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhaohu-sdk-iosTests.release.xcconfig"; path = "Target Support Files/Pods-zhaohu-sdk-iosTests/Pods-zhaohu-sdk-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		C043F2C0C628EE68C76175F1 /* Pods-zhaohu-sdk-iosPackageDescription.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhaohu-sdk-iosPackageDescription.debug.xcconfig"; path = "Target Support Files/Pods-zhaohu-sdk-iosPackageDescription/Pods-zhaohu-sdk-iosPackageDescription.debug.xcconfig"; sourceTree = "<group>"; };
+		FAC77519E09A2308DBBA5F0C /* Pods-zhaohu-sdk-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhaohu-sdk-ios.release.xcconfig"; path = "Target Support Files/Pods-zhaohu-sdk-ios/Pods-zhaohu-sdk-ios.release.xcconfig"; sourceTree = "<group>"; };
+		OBJ_12 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* zhaohu_sdk_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhaohu_sdk_iosTests.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"zhaohu-sdk-ios::zhaohu-sdk-ios::Product" /* zhaohu_sdk_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = zhaohu_sdk_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"zhaohu-sdk-ios::zhaohu-sdk-iosTests::Product" /* zhaohu_sdk_iosTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = zhaohu_sdk_iosTests.xctest; path = "zhaohu-sdk-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F16255C82EE8648F20BB2B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8EB13AFCDBC80400A574B3 /* Pods_zhaohu_sdk_iosPackageDescription.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				3B73ED922317893F00258373 /* MDFInternationalization.framework in Frameworks */,
+				3B73ED902317893A00258373 /* MaterialComponents.framework in Frameworks */,
+				4BFA319C923ACECBE758711E /* Pods_zhaohu_sdk_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_43 /* zhaohu_sdk_ios.framework in Frameworks */,
+				5BC1DF12D23BE92A80106A84 /* Pods_zhaohu_sdk_iosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B73EDA22317C78100258373 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B73EDA32317C7C900258373 /* mesoor-round-logo.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CABAD170BFE29432337308EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B73ED912317893F00258373 /* MDFInternationalization.framework */,
+				3B73ED8F2317893A00258373 /* MaterialComponents.framework */,
+				3B73ED7B23177DF100258373 /* MDFInternationalization.framework */,
+				3B73ED7823177D8B00258373 /* MDFInternationalization.framework */,
+				3B73ED7223177C3E00258373 /* MDFInternationalization.framework */,
+				3B73ED6F23177AF900258373 /* MaterialComponents.framework */,
+				3B73ED6B2316874C00258373 /* MDFInternationalization.framework */,
+				5081A2CAE51B691B8409610F /* Pods_zhaohu_sdk_ios.framework */,
+				03CAF0F4E04E4A4EAD1767E6 /* Pods_zhaohu_sdk_iosPackageDescription.framework */,
+				492BBE37868E6757E382D426 /* Pods_zhaohu_sdk_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBA7CAE8F406FD8F47BCFCA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69AAAF27931A5E3F7A29A320 /* Pods-zhaohu-sdk-ios.debug.xcconfig */,
+				FAC77519E09A2308DBBA5F0C /* Pods-zhaohu-sdk-ios.release.xcconfig */,
+				C043F2C0C628EE68C76175F1 /* Pods-zhaohu-sdk-iosPackageDescription.debug.xcconfig */,
+				1CAACBBBA923974228193178 /* Pods-zhaohu-sdk-iosPackageDescription.release.xcconfig */,
+				5EF5C74902747C4EC41C2F25 /* Pods-zhaohu-sdk-iosTests.debug.xcconfig */,
+				AAD7CDF10E7F0BA8317D777C /* Pods-zhaohu-sdk-iosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* zhaohu-sdk-iosTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* zhaohu-sdk-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* XCTestManifests.swift */,
+				OBJ_13 /* zhaohu_sdk_iosTests.swift */,
+			);
+			name = "zhaohu-sdk-iosTests";
+			path = "Tests/zhaohu-sdk-iosTests";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"zhaohu-sdk-ios::zhaohu-sdk-ios::Product" /* zhaohu_sdk_ios.framework */,
+				"zhaohu-sdk-ios::zhaohu-sdk-iosTests::Product" /* zhaohu_sdk_iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				3B73EDA22317C78100258373 /* Resources */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* Products */,
+				EBA7CAE8F406FD8F47BCFCA5 /* Pods */,
+				CABAD170BFE29432337308EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* zhaohu-sdk-ios */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* zhaohu-sdk-ios */ = {
+			isa = PBXGroup;
+			children = (
+				3B73EDAB231F721100258373 /* WebViewController.swift */,
+				3B73EDAC231F721100258373 /* WebViewController.xib */,
+				2EB8662CC1D199FDADD27AD7 /* ZhaohuFloatingButton.swift */,
+				2EB866A96DFB1768122B7D1B /* Log.swift */,
+			);
+			name = "zhaohu-sdk-ios";
+			path = "Sources/zhaohu-sdk-ios";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"zhaohu-sdk-ios::SwiftPMPackageDescription" /* zhaohu-sdk-iosPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "zhaohu-sdk-iosPackageDescription" */;
+			buildPhases = (
+				CC9525CE3FE0865F8E0BEA56 /* [CP] Check Pods Manifest.lock */,
+				OBJ_28 /* Sources */,
+				0F16255C82EE8648F20BB2B8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zhaohu-sdk-iosPackageDescription";
+			productName = "zhaohu-sdk-iosPackageDescription";
+			productType = "com.apple.product-type.framework";
+		};
+		"zhaohu-sdk-ios::zhaohu-sdk-ios" /* zhaohu-sdk-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "zhaohu-sdk-ios" */;
+			buildPhases = (
+				6427CDC5AFFB41E7D0271B13 /* [CP] Check Pods Manifest.lock */,
+				OBJ_21 /* Sources */,
+				OBJ_23 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zhaohu-sdk-ios";
+			productName = zhaohu_sdk_ios;
+			productReference = "zhaohu-sdk-ios::zhaohu-sdk-ios::Product" /* zhaohu_sdk_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"zhaohu-sdk-ios::zhaohu-sdk-iosTests" /* zhaohu-sdk-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_36 /* Build configuration list for PBXNativeTarget "zhaohu-sdk-iosTests" */;
+			buildPhases = (
+				38342CCF8BC58A6D2790FBD3 /* [CP] Check Pods Manifest.lock */,
+				OBJ_39 /* Sources */,
+				OBJ_42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_44 /* PBXTargetDependency */,
+			);
+			name = "zhaohu-sdk-iosTests";
+			productName = zhaohu_sdk_iosTests;
+			productReference = "zhaohu-sdk-ios::zhaohu-sdk-iosTests::Product" /* zhaohu_sdk_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					"zhaohu-sdk-ios::zhaohu-sdk-ios" = {
+						DevelopmentTeam = 38KZYJKP3Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "zhaohu-sdk-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"zhaohu-sdk-ios::zhaohu-sdk-ios" /* zhaohu-sdk-ios */,
+				"zhaohu-sdk-ios::SwiftPMPackageDescription" /* zhaohu-sdk-iosPackageDescription */,
+				"zhaohu-sdk-ios::zhaohu-sdk-iosPackageTests::ProductTarget" /* zhaohu-sdk-iosPackageTests */,
+				"zhaohu-sdk-ios::zhaohu-sdk-iosTests" /* zhaohu-sdk-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38342CCF8BC58A6D2790FBD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zhaohu-sdk-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6427CDC5AFFB41E7D0271B13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zhaohu-sdk-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC9525CE3FE0865F8E0BEA56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zhaohu-sdk-iosPackageDescription-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				2EB86BC3FAF7CF0BF67F537D /* ZhaohuFloatingButton.swift in Sources */,
+				3B73EDAD231F721100258373 /* WebViewController.swift in Sources */,
+				2EB868A193E961AB1C083B06 /* Log.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_29 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_40 /* XCTestManifests.swift in Sources */,
+				OBJ_41 /* zhaohu_sdk_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "zhaohu-sdk-ios::zhaohu-sdk-iosTests" /* zhaohu-sdk-iosTests */;
+			targetProxy = 3B122D0A2313C41800919F4A /* PBXContainerItemProxy */;
+		};
+		OBJ_44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "zhaohu-sdk-ios::zhaohu-sdk-ios" /* zhaohu-sdk-ios */;
+			targetProxy = 3B122D092313C41700919F4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69AAAF27931A5E3F7A29A320 /* Pods-zhaohu-sdk-ios.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38KZYJKP3Z;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "zhaohu-sdk-ios.xcodeproj/zhaohu_sdk_ios_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaohu-sdk-ios";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "zhaohu-sdk-ios";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC77519E09A2308DBBA5F0C /* Pods-zhaohu-sdk-ios.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38KZYJKP3Z;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "zhaohu-sdk-ios.xcodeproj/zhaohu_sdk_ios_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaohu-sdk-ios";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "zhaohu-sdk-ios";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C043F2C0C628EE68C76175F1 /* Pods-zhaohu-sdk-iosPackageDescription.debug.xcconfig */;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CAACBBBA923974228193178 /* Pods-zhaohu-sdk-iosPackageDescription.release.xcconfig */;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF5C74902747C4EC41C2F25 /* Pods-zhaohu-sdk-iosTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "zhaohu-sdk-ios.xcodeproj/zhaohu_sdk_iosTests_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "zhaohu-sdk-iosTests";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD7CDF10E7F0BA8317D777C /* Pods-zhaohu-sdk-iosTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "zhaohu-sdk-ios.xcodeproj/zhaohu_sdk_iosTests_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "zhaohu-sdk-iosTests";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_18 /* Build configuration list for PBXNativeTarget "zhaohu-sdk-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_19 /* Debug */,
+				OBJ_20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "zhaohu-sdk-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_25 /* Build configuration list for PBXNativeTarget "zhaohu-sdk-iosPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_26 /* Debug */,
+				OBJ_27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_31 /* Build configuration list for PBXAggregateTarget "zhaohu-sdk-iosPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_32 /* Debug */,
+				OBJ_33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_36 /* Build configuration list for PBXNativeTarget "zhaohu-sdk-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_37 /* Debug */,
+				OBJ_38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
