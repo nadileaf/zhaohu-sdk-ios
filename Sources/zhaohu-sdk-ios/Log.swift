@@ -13,6 +13,8 @@ class Log {
         self.category = category
         if #available(iOS 10.0, macOS 10.12, *) {
             self.tag = OSLog(subsystem: subsystem, category: category)
+        } else {
+            self.tag = nil
         }
     }
 
