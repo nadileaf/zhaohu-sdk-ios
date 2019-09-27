@@ -25,7 +25,7 @@ import MaterialComponents.MaterialButtons
         self.setup()
     }
 
-    let plusImage = UIImage(named: "mesoor-round-logo.png", in: Bundle(path: Bundle(identifier: "com.mesoor.zhaohu.sdk")!.path(forResource: "ZhaohuLib", ofType: "bundle")!), compatibleWith: nil)
+    let plusImage = UIImage(named: "mesoor-round-logo.png", in: Bundle(path: Bundle(identifier: "org.cocoapods.zhaohu-sdk-ios")!.path(forResource: "ZhaohuLib", ofType: "bundle")!), compatibleWith: nil)
 
     public func setup() {
         logger.info("setup")
