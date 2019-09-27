@@ -3,4 +3,69 @@
    uuid = "34EA2923-73C6-4688-80AD-265FF288A55E"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D40099E6-C39E-4B03-9BE9-4771817C7D53"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/zhaohu-sdk-ios/ZhaohuFloatingButton.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "ZhaohuFloatingButton"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "D40099E6-C39E-4B03-9BE9-4771817C7D53 - 454c8d4deced57ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zhaohu_sdk_ios.ZhaohuFloatingButton.init(frame: __C.CGRect, shape: __C.MDCFloatingButtonShape) -&gt; zhaohu_sdk_ios.ZhaohuFloatingButton"
+                  moduleName = "zhaohu_sdk_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/famer.me/Repository/zhaohu-sdk-ios/Sources/zhaohu-sdk-ios/ZhaohuFloatingButton.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "812">
+               </Location>
+               <Location
+                  uuid = "D40099E6-C39E-4B03-9BE9-4771817C7D53 - c8ba5d110628eeeb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zhaohu_sdk_ios.ZhaohuFloatingButton.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;zhaohu_sdk_ios.ZhaohuFloatingButton&gt;"
+                  moduleName = "zhaohu_sdk_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/famer.me/Repository/zhaohu-sdk-ios/Sources/zhaohu-sdk-ios/ZhaohuFloatingButton.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "744">
+               </Location>
+               <Location
+                  uuid = "D40099E6-C39E-4B03-9BE9-4771817C7D53 - b19eb93d8e0890a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zhaohu_sdk_ios.ZhaohuFloatingButton.plusImage.getter : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "zhaohu_sdk_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/famer.me/Repository/zhaohu-sdk-ios/Sources/zhaohu-sdk-ios/ZhaohuFloatingButton.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

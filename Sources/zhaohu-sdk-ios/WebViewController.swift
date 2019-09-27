@@ -9,7 +9,7 @@ import UIKit
 import WebKit
 
 public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, WKScriptMessageHandler {
-    fileprivate let logger = Log(subsystem: Bundle.main.bundleIdentifier!, category: "WebViewBridge")
+    fileprivate let logger = Log(subsystem: Bundle(for: WebViewController.self).bundleIdentifier!, category: "WebViewBridge")
     fileprivate let p: ZhaohuParameter
     
     @IBOutlet weak var container: UIView!
@@ -40,7 +40,7 @@ public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDele
     
     public init(p: ZhaohuParameter) {
         self.p = p
-        super.init(nibName: "WebViewController", bundle: Bundle(for: WebViewController.self))
+        super.init(nibName: "WebViewController", bundle: Bundle(url: Bundle(for: WebViewController.self).url(forResource: "ZhaohuLib", withExtension: "bundle")!))
     }
     
     required public init?(coder: NSCoder) {

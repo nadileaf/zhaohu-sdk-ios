@@ -11,7 +11,7 @@ import MaterialComponents.MaterialButtons
 @IBDesignable public class ZhaohuFloatingButton: MDCFloatingButton {
 
     fileprivate var canDrag = false
-    fileprivate let logger = Log(subsystem: Bundle.main.bundleIdentifier!, category: "ZhaohuBtn")
+    fileprivate let logger = Log(subsystem: Bundle(for: ZhaohuFloatingButton.self).bundleIdentifier!, category: "ZhaohuBtn")
     fileprivate var p: ZhaohuParameter? = nil
     public weak var parentViewController: UIViewController?
     
@@ -25,7 +25,7 @@ import MaterialComponents.MaterialButtons
         self.setup()
     }
 
-    let plusImage = UIImage(named: "mesoor-round-logo.png", in: Bundle(for: ZhaohuFloatingButton.self), compatibleWith: nil)
+    let plusImage = UIImage(named: "mesoor-round-logo.png", in: Bundle(url: Bundle(for: ZhaohuFloatingButton.self).url(forResource: "ZhaohuLib", withExtension: "bundle")!), compatibleWith: nil)
 
     public func setup() {
         logger.info("setup")
