@@ -10,6 +10,7 @@ import os.log
 import WebKit
 
 public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, WKScriptMessageHandler {
+    fileprivate let log = OSLog(subsystem: Bundle.main.bundleIdentifier!, category: "WebViewBridge")
     fileprivate let p: ZhaohuParameter
     
     public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
@@ -22,8 +23,7 @@ public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDele
             case "USER_INFO_REQUEST":
                 if let callback = body["callback"] as? String {
                     p.requestUserInfoDelegate.requestUserInfo(callback: {
-                        let script = WKUserScript(source: "\(callback)(\($0))", injectionTime: .atDocumentEnd, forMainFrameOnly: true)
-                        webView.configuration.userContentController.addUserScript(script)
+                        webView.evaluateJavaScript("\(callback)(\($0))", completionHandler: nil)
                     })
                 } else {
                     os_log("???callback???", log: log, type: .error)
@@ -47,7 +47,6 @@ public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDele
         fatalError("init(coder:) has not been implemented")
     }
     
-    fileprivate let log = OSLog(subsystem: Bundle.main.bundleIdentifier!, category: "component")
     
     @IBOutlet weak var webView: WKWebView! {
       didSet {
