@@ -6,17 +6,13 @@
 //
 
 import UIKit
-import os.log
 import WebKit
 
 public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, WKScriptMessageHandler {
-    fileprivate let log = OSLog(subsystem: Bundle.main.bundleIdentifier!, category: "WebViewBridge")
+    fileprivate let logger = Log(subsystem: Bundle.main.bundleIdentifier!, category: "WebViewBridge")
     fileprivate let p: ZhaohuParameter
     
     public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-        if let body = message.body as? String {
-            os_log("老王坑我: %@", log: log, type: .debug, body)
-        }
         if let body = message.body as? [String: Any], let type = body["type"] as? String {
             
             switch type {
@@ -26,15 +22,17 @@ public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDele
                         webView.evaluateJavaScript("\(callback)(\($0))", completionHandler: nil)
                     })
                 } else {
-                    os_log("???callback???", log: log, type: .error)
+                    logger.error("???callback???")
                 }
             case "USER_INFO_REPLY":
-                os_log("%@", log: log, type: .error, body.description)
+                logger.error(body.description)
             case "USER_DENIED":
                 self.dismiss(animated: true)
             default:
-                os_log("Unrecognizable type: %@\n%@", log: log, type: .error, type, body.description)
+                logger.error(String(format: "Unrecognizable type: %@\n%@", type, body.description))
             }
+        } else {
+            logger.fatal(String(format: "老王坑我: %@", String(describing: message.body)))
         }
     }
     
@@ -70,7 +68,7 @@ public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDele
         if let webView = self.webView {
             webView.load(req)
         } else {
-            os_log("webView not found! please check xib resource is exists.", log: log, type: .fault)
+            logger.fatal("webView not found! please check xib resource is exists.")
         }
     }
 

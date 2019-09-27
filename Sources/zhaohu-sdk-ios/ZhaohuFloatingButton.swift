@@ -7,12 +7,11 @@
 
 import UIKit
 import MaterialComponents.MaterialButtons
-import os.log
 
-@IBDesignable open class ZhaohuFloatingButton: MDCFloatingButton {
+@IBDesignable public class ZhaohuFloatingButton: MDCFloatingButton {
 
     fileprivate var canDrag = false
-    fileprivate let log = OSLog(subsystem: Bundle.main.bundleIdentifier!, category: "component")
+    fileprivate let logger = Log(subsystem: Bundle.main.bundleIdentifier!, category: "ZhaohuBtn")
     fileprivate var p: ZhaohuParameter? = nil
     public weak var parentViewController: UIViewController?
     
@@ -30,7 +29,7 @@ import os.log
     let plusImage = UIImage(named: "mesoor-round-logo.png")
 
     public func setup() {
-        os_log("setup", log: log, type: .info)
+        logger.info("setup")
         self.sizeToFit()
         self.translatesAutoresizingMaskIntoConstraints = false
         self.setImage(plusImage, for: .normal)
@@ -42,7 +41,7 @@ import os.log
         self.p = p
     }
     
-    override open func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let p = self.p else {
             fatalError("zhaohu need initialize")
         }
