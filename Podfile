@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '10.0'
+platform :ios, '9.3'
 
 workspace 'zhaohu-sdk-ios'
 
@@ -20,6 +20,7 @@ end
 
 
 target 'example' do
+  inherit! :search_paths
   project 'example/example.xcodeproj'
   pod 'zhaohu-sdk-ios', :path => './'
 
