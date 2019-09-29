@@ -41,8 +41,6 @@ public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDele
     public init(p: ZhaohuParameter) {
         self.p = p
         let selfBundle = Bundle(identifier: "org.cocoapods.zhaohu-sdk-ios")!
-        //        let libPath = selfBundle.path(forResource: "ZhaohuLib", ofType: "bundle")!
-        //        let libBundle = Bundle(path: libPath)
         super.init(nibName: "WebViewController", bundle: selfBundle)
     }
     

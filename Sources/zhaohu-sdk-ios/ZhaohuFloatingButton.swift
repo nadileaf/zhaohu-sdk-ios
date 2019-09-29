@@ -30,8 +30,6 @@ import MaterialComponents.MaterialButtons
 
         self.canDrag = true
         let selfBundle = Bundle(identifier: "org.cocoapods.zhaohu-sdk-ios")!
-//        let libPath = selfBundle.path(forResource: "ZhaohuLib", ofType: "bundle")!
-//        let libBundle = Bundle(path: libPath)
         let plusImage = UIImage(named: "mesoor-round-logo.png", in: selfBundle, compatibleWith: nil)
         self.setImage(plusImage, for: .normal)
 
@@ -39,10 +37,6 @@ import MaterialComponents.MaterialButtons
         self.translatesAutoresizingMaskIntoConstraints = false
         self.imageView?.contentMode = .scaleAspectFit
         self.accessibilityLabel = "Create"
-        
-        for fw in Bundle.allFrameworks {
-            logger.debug(String(format: "%@", fw.description))
-        }
     }
 
     public func initialize(p: ZhaohuParameter) {

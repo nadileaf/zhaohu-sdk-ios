@@ -21,8 +21,8 @@ end
 
 target 'example' do
   project 'example/example.xcodeproj'
-  pod 'zhaohu-sdk-ios', :path => './'
-  # pod 'zhaohu-sdk-ios', '~> 0.0.9'
+  # pod 'zhaohu-sdk-ios', :path => './'
+  pod 'zhaohu-sdk-ios', '~> 0.0.10'
 
   use_frameworks!
 end
