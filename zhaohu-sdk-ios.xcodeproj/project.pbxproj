@@ -23,6 +23,8 @@
 /* Begin PBXBuildFile section */
 		2EB86BC3FAF7CF0BF67F537D /* ZhaohuFloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8662CC1D199FDADD27AD7 /* ZhaohuFloatingButton.swift */; };
 		3B34AA3D233E426400217FF6 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B34AA3C233E426400217FF6 /* Log.swift */; };
+		3B34AA64234048C700217FF6 /* mesoor-round-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B73EDA32317C7C900258373 /* mesoor-round-logo.png */; };
+		3B34AA65234048CB00217FF6 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B73EDAC231F721100258373 /* WebViewController.xib */; };
 		3B73ED902317893A00258373 /* MaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B73ED8F2317893A00258373 /* MaterialComponents.framework */; };
 		3B73ED922317893F00258373 /* MDFInternationalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B73ED912317893F00258373 /* MDFInternationalization.framework */; };
 		3B73EDAD231F721100258373 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B73EDAB231F721100258373 /* WebViewController.swift */; };
@@ -51,6 +53,18 @@
 			remoteInfo = "zhaohu-sdk-iosTests";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B34AA66234048DF00217FF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		03CAF0F4E04E4A4EAD1767E6 /* Pods_zhaohu_sdk_iosPackageDescription.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhaohu_sdk_iosPackageDescription.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -236,6 +250,8 @@
 				6427CDC5AFFB41E7D0271B13 /* [CP] Check Pods Manifest.lock */,
 				OBJ_21 /* Sources */,
 				OBJ_23 /* Frameworks */,
+				3B34AA63234048BF00217FF6 /* Resources */,
+				3B34AA66234048DF00217FF6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -299,6 +315,18 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B34AA63234048BF00217FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B34AA65234048CB00217FF6 /* WebViewController.xib in Resources */,
+				3B34AA64234048C700217FF6 /* mesoor-round-logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		38342CCF8BC58A6D2790FBD3 /* [CP] Check Pods Manifest.lock */ = {

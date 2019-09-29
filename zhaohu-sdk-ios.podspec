@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "zhaohu-sdk-ios"
-  spec.version      = "0.0.9"
+  spec.version      = "0.0.10"
   spec.summary      = "Zhaohu iOS SDK"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/nadileaf/zhaohu-sdk-ios.git", :tag => "0.0.9" }
+  spec.source       = { :git => "https://github.com/nadileaf/zhaohu-sdk-ios.git", :tag => "0.0.10" }
   spec.swift_versions = ['5.1']
 
 
@@ -107,10 +107,10 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = ["Resources/*.png", "Sources/zhaohu-sdk-ios/*.xib"]
-  spec.resource_bundles = {
-    'ZhaohuLib' => ['Resources/*.png', 'Sources/zhaohu-sdk-ios/*.xib']
-  }
+  spec.resources = ["Resources/*.png", "Sources/zhaohu-sdk-ios/*.xib"]
+  # spec.resource_bundles = {
+  #   'ZhaohuLib' => ['Resources/*.png', 'Sources/zhaohu-sdk-ios/*.xib']
+  # }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
