@@ -107,6 +107,6 @@ enum SDKError: Error {
 }
 
 
-public protocol RequestUserInfoDelegate {
+@objc public protocol RequestUserInfoDelegate {
     func requestUserInfo(callback: (_ result: String) -> Void) -> Void
 }

@@ -25,7 +25,7 @@ class ViewController: UIViewController, RequestUserInfoDelegate {
         super.viewDidAppear(animated)
         os_log("demo start!", log: log, type: .info)
         
-        let p = ZhaohuParameter(from: "test", token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcm9tIjoidGVzdCIsImlkIjoibXkyIiwiaWF0IjoxNTY5NTU1MTE1LCJleHAiOjE1NzIxNDcxMTV9.yuZrYWyFgTTv5ZFl_WLEutpJG3fdtOvXJnURQKP0Wyk", requestUserInfoDelegate: self, env: "nadileaf", version: nil)
+        let p = ZhaohuParameter(from: "test", token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcm9tIjoidGVzdCIsImlkIjoibXkyIiwiaWF0IjoxNTY5NTU1MTE1LCJleHAiOjE1NzIxNDcxMTV9.yuZrYWyFgTTv5ZFl_WLEutpJG3fdtOvXJnURQKP0Wyk", requestUserInfoDelegate: self)
         zhaohufb.initialize(p: p)
         zhaohufb.parentViewController = self
         
