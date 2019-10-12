@@ -21,7 +21,13 @@ public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDele
             case "USER_INFO_REQUEST":
                 if let callback = body["callback"] as? String {
                     p.requestUserInfoDelegate.requestUserInfo(callback: {
-                        webView.evaluateJavaScript("\(callback)(\($0))", completionHandler: nil)
+                        webView.evaluateJavaScript("\(callback)(\($0))") { (result, error) in
+                            if let err = error {
+                                self.logger.error(String(format: "invoke callback error: %@", err.localizedDescription))
+                            } else {
+                                self.logger.debug(String(format: "pass success: %@", result.debugDescription))
+                            }
+                        }
                     })
                 } else {
                     logger.error("???callback???")

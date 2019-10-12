@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "zhaohu-sdk-ios"
-  spec.version      = "1.0.0-beta3"
+  spec.version      = "1.0.0-beta4"
   spec.summary      = "Zhaohu iOS SDK"
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ https://mesoor.gitbook.io/agora/c-duan-hou-xuan-ren#ios
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/nadileaf/zhaohu-sdk-ios.git", :tag => "1.0.0-beta3" }
+  spec.source       = { :git => "https://github.com/nadileaf/zhaohu-sdk-ios.git", :tag => "1.0.0-beta4" }
   spec.swift_versions = ['5.1']
 
 
