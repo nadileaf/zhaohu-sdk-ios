@@ -43,7 +43,7 @@ import MaterialComponents.MaterialButtons
         self.p = p
     }
     
-    @objc public func initialize(from: String, token: String, requestUserInfoDelegate: RequestUserInfoDelegate, env: String? = nil, version: String? = nil) {
+    @objc public func setParameter(from: String, token: String, requestUserInfoDelegate: RequestUserInfoDelegate, env: String? = nil, version: String? = nil) {
         self.p = ZhaohuParameter(from: from, token: token, requestUserInfoDelegate: requestUserInfoDelegate, env: env, version: version)
     }
     
