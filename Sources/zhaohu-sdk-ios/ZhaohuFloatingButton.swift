@@ -13,7 +13,7 @@ import MaterialComponents.MaterialButtons
     fileprivate var canDrag = false
     fileprivate let logger = Log(subsystem: Bundle(for: ZhaohuFloatingButton.self).bundleIdentifier!, category: "ZhaohuBtn")
     fileprivate var p: ZhaohuParameter? = nil
-    public weak var parentViewController: UIViewController?
+    @objc public weak var parentViewController: UIViewController?
     
     override init(frame: CGRect, shape: MDCFloatingButtonShape) {
         super.init(frame: frame, shape: shape)
@@ -41,6 +41,10 @@ import MaterialComponents.MaterialButtons
 
     public func initialize(p: ZhaohuParameter) {
         self.p = p
+    }
+    
+    @objc public func initialize(from: String, token: String, requestUserInfoDelegate: RequestUserInfoDelegate, env: String? = nil, version: String? = nil) {
+        self.p = ZhaohuParameter(from: from, token: token, requestUserInfoDelegate: requestUserInfoDelegate, env: env, version: version)
     }
     
     override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {

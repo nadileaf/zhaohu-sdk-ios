@@ -44,6 +44,12 @@ public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDele
         super.init(nibName: "WebViewController", bundle: selfBundle)
     }
     
+    @objc public init(from: String, token: String, requestUserInfoDelegate: RequestUserInfoDelegate, env: String? = nil, version: String? = nil) {
+        self.p = ZhaohuParameter(from: from, token: token, requestUserInfoDelegate: requestUserInfoDelegate, env: env, version: version)
+        let selfBundle = Bundle(identifier: "org.cocoapods.zhaohu-sdk-ios")!
+        super.init(nibName: "WebViewController", bundle: selfBundle)
+    }
+    
     required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
