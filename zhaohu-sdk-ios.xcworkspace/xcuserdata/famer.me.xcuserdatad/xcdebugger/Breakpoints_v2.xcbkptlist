@@ -82,38 +82,6 @@
             endingLineNumber = "23"
             landmarkName = "userContentController(_:didReceive:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "49DFBD75-AA99-40AF-A6D9-70456145592D - b93b62726c1076fe"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "zhaohu_sdk_ios.WebViewController.userContentController(_: __C.WKUserContentController, didReceive: __C.WKScriptMessage) -&gt; ()"
-                  moduleName = "zhaohu_sdk_ios"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/famer.me/Repository/zhaohu-sdk-ios/Sources/zhaohu-sdk-ios/WebViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "1400">
-               </Location>
-               <Location
-                  uuid = "49DFBD75-AA99-40AF-A6D9-70456145592D - 8465933a3c37285"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.String) -&gt; () in zhaohu_sdk_ios.WebViewController.userContentController(_: __C.WKUserContentController, didReceive: __C.WKScriptMessage) -&gt; ()"
-                  moduleName = "zhaohu_sdk_ios"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/famer.me/Repository/zhaohu-sdk-ios/Sources/zhaohu-sdk-ios/WebViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "231">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -130,38 +98,6 @@
             endingLineNumber = "24"
             landmarkName = "userContentController(_:didReceive:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0B8B5450-0607-40C4-98AD-47FDFEEB9D2D - 8465933a3c37285"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.String) -&gt; () in zhaohu_sdk_ios.WebViewController.userContentController(_: __C.WKUserContentController, didReceive: __C.WKScriptMessage) -&gt; ()"
-                  moduleName = "zhaohu_sdk_ios"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/famer.me/Repository/zhaohu-sdk-ios/Sources/zhaohu-sdk-ios/WebViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "231">
-               </Location>
-               <Location
-                  uuid = "0B8B5450-0607-40C4-98AD-47FDFEEB9D2D - aa5fd7824ac659a6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.String) -&gt; () in zhaohu_sdk_ios.WebViewController.userContentController(_: __C.WKUserContentController, didReceive: __C.WKScriptMessage) -&gt; ()"
-                  moduleName = "zhaohu_sdk_ios"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/famer.me/Repository/zhaohu-sdk-ios/Sources/zhaohu-sdk-ios/WebViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "161">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -177,6 +113,118 @@
             startingLineNumber = "38"
             endingLineNumber = "38"
             landmarkName = "requestUserInfo(callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B78A0F31-7EA4-486D-B88D-3065EA185165"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/zhaohu-sdk-ios/Sources/zhaohu-sdk-ios/ZhaohuFloatingButton.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "setup()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FEE93D94-4ACF-403D-8847-609424993A53"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/zhaohu-sdk-ios/Sources/zhaohu-sdk-ios/WebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "userContentController(_:didReceive:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "264FE93D-9FC4-42F7-BCE5-62CD04950EAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/zhaohu-sdk-ios/Sources/zhaohu-sdk-ios/Log.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "init(subsystem:category:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A595664F-9561-40B3-9BD6-5836BA22D922"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/zhaohu-sdk-ios/Log.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "debug(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0190ECA7-07D9-4CBC-9561-1D14ACF67A58"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/zhaohu-sdk-ios/Log.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "info(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "600E1E15-3444-47C1-A308-0D7CA2DBAB00"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/zhaohu-sdk-ios/Log.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "error(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A69981D-67EB-4128-913D-E8BED39BDF5C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/zhaohu-sdk-ios/Log.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "init(subsystem:category:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

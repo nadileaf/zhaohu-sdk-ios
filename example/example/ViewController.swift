@@ -41,6 +41,3 @@ class ViewController: UIViewController, RequestUserInfoDelegate {
     }
 }
 
-enum MyError: Error {
-    case nani
-}
