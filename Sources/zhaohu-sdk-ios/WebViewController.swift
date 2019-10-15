@@ -92,7 +92,8 @@ public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDele
             versionSpan = "version=\(version)"
         }
         
-        let url = URL(string: "https://agora.\(p.env ?? "mesoor").com/?\(versionSpan)&token=\(p.token)&from=\(p.from)&platform=ios_sdk")
+        let urlStr = "https://agora.\(p.env ?? "mesoor").com/?\(versionSpan)&token=\(p.token)&from=\(p.from)&platform=ios_sdk".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
+        let url = URL(string: urlStr)
         let req = URLRequest(url: url!)
         if let webView = self.webView {
             webView.load(req)
