@@ -82,6 +82,38 @@
             endingLineNumber = "23"
             landmarkName = "userContentController(_:didReceive:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "49DFBD75-AA99-40AF-A6D9-70456145592D - b93b62726c1076fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zhaohu_sdk_ios.WebViewController.userContentController(_: __C.WKUserContentController, didReceive: __C.WKScriptMessage) -&gt; ()"
+                  moduleName = "zhaohu_sdk_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/famer.me/Repository/zhaohu-sdk-ios/Sources/zhaohu-sdk-ios/WebViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1400">
+               </Location>
+               <Location
+                  uuid = "49DFBD75-AA99-40AF-A6D9-70456145592D - 8465933a3c37285"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in zhaohu_sdk_ios.WebViewController.userContentController(_: __C.WKUserContentController, didReceive: __C.WKScriptMessage) -&gt; ()"
+                  moduleName = "zhaohu_sdk_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/famer.me/Repository/zhaohu-sdk-ios/Sources/zhaohu-sdk-ios/WebViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "231">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -98,6 +130,38 @@
             endingLineNumber = "24"
             landmarkName = "userContentController(_:didReceive:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0B8B5450-0607-40C4-98AD-47FDFEEB9D2D - 8465933a3c37285"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in zhaohu_sdk_ios.WebViewController.userContentController(_: __C.WKUserContentController, didReceive: __C.WKScriptMessage) -&gt; ()"
+                  moduleName = "zhaohu_sdk_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/famer.me/Repository/zhaohu-sdk-ios/Sources/zhaohu-sdk-ios/WebViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "231">
+               </Location>
+               <Location
+                  uuid = "0B8B5450-0607-40C4-98AD-47FDFEEB9D2D - aa5fd7824ac659a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.String) -&gt; () in zhaohu_sdk_ios.WebViewController.userContentController(_: __C.WKUserContentController, didReceive: __C.WKScriptMessage) -&gt; ()"
+                  moduleName = "zhaohu_sdk_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/famer.me/Repository/zhaohu-sdk-ios/Sources/zhaohu-sdk-ios/WebViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "161">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

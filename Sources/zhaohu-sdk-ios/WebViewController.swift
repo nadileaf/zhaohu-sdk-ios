@@ -21,7 +21,7 @@ public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDele
             case "USER_INFO_REQUEST":
                 if let callback = body["callback"] as? String {
                     p.requestUserInfoDelegate.requestUserInfo(callback: {
-                        webView.evaluateJavaScript("\(callback)(\($0))") { (result, error) in
+                        self.webView.evaluateJavaScript("\(callback)(\($0))") { (result, error) in
                             if let err = error {
                                 self.logger.error(err.localizedDescription)
                             } else {
@@ -121,5 +121,5 @@ enum SDKError: Error {
 
 
 @objc public protocol RequestUserInfoDelegate {
-    func requestUserInfo(callback: (_ result: String) -> Void) -> Void
+    func requestUserInfo(callback: @escaping (_ result: String) -> Void) -> Void
 }
